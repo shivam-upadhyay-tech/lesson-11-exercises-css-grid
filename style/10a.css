@@ -1,0 +1,215 @@
+.chat-preview {
+  width: 400px;
+  display: inline-block;
+  font-family: roboto , arial;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  
+}
+
+.profile {
+  display: inline-block;
+  width: 40px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+p{
+  margin: 0px;
+  line-height: 1.4em;
+  width: 200px;
+}
+
+.profile-text {
+  vertical-align: middle;
+  display: inline-block;
+  width: 100px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+
+.profile-picture {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.follow-button {
+  display: inline-block;
+  padding: 0;
+  margin-left: 120px;
+}
+
+.button {
+  height: 36px;
+  width: 80px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(29, 155, 240);
+  color: white;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+.button:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.button:active{
+  transform: scale(0.99);
+}
+
+#p1{
+  font-weight: bold;
+}
+
+#p2{
+  color: gray;
+}
+
+#p3{
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.chat-preview-2 {
+  width: 430px;
+  display: inline-block;
+  font-family: roboto , arial;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.thumbnail-picture {
+  width: 180px;
+  display: inline-block;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.thumbnail{
+  display: inline-block;
+}
+
+.channel-info{
+  display: inline-block;
+  width: 240px;
+  margin: 0px;
+  margin-left: 5px;
+  vertical-align: top;
+
+}
+
+.channel-title {
+  font-weight: 500;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+
+.channel-name{
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 4px;
+}
+
+.channel-stats{
+  font-size: 14px;
+  color: gray;
+}
+
+h3 {
+  font-family: roboto, arial;
+
+}
+
+/* Chat preview 3 */
+
+.box-preview-3{
+  width: 140px;
+}
+
+.oliver {
+  width: 140px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  margin-right: 11px;
+}
+.oliver-picture{
+  width: 140px;
+
+}
+
+.oliver-profile {
+  width: 140px;
+  height: 145px;
+  object-fit: cover;
+}
+
+.oliver-info{
+  width: 130px;
+  padding-left: 5px;
+}
+
+.oliver-name{
+  font-family: roboto;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.oliver-friends {
+  font-family: roboto;
+  font-size: 13px;
+  color: gray;
+  font-weight: 400;
+  width: 130px;
+}
+
+.dog-2-image{
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-bottom: 6px;
+  margin-right: 4px;
+}
+
+.add-friend-button{
+  margin-bottom: 7px;
+  margin-left: 6px;
+  background-color: rgb(1, 108, 175);
+  border: none;
+  font-family: roboto;
+  padding-bottom: 4px;
+  padding-top: 3px;
+  border-radius: 2px;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-top: 8px;
+  height: 28px;
+  width: 80px;
+  margin-left: 1px;
+}
+
+.add-friend-button:hover{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style/index.css">
+  <title>CSS Grid</title>
+</head>
+<body style="margin: 0px;">
+    
+    <div style="display: grid;
+    margin-top: 10px;
+    grid-template-columns: 200px 75px;">
+
+    <div style="background-color: rgb(107, 197, 227);">200px</div>
+    <di style="background-color: rgb(216, 110, 126);">75px</div>
+    </div>
+
+
+    <div style="display: grid;
+    margin-top: 30px;
+    grid-template-columns: 50px 1fr 75px ;
+    ">
+  
+    <div style="background-color: rgb(107, 197, 227);">col1</div>
+    <div style="background-color: rgb(216, 110, 126);">col2</div>
+    <div style="background-color: rgb(107, 197, 227);">col3</div>
+    </div>
+
+
+    <div style="display: grid;
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    ">
+  
+    <div style="background-color: rgb(107, 197, 227);">col1</div>
+    <div style="background-color: rgb(216, 110, 126);">col2</div>
+    <div style="background-color: rgb(107, 197, 227);">col3</div>
+    <div style="background-color: rgb(216, 110, 126);">col4</div>
+    <div style="background-color: rgb(107, 197, 227);">col1</div>
+    <div style="background-color: rgb(216, 110, 126);">col2</div>
+    <div style="background-color: rgb(107, 197, 227);">col3</div>
+    <div style="background-color: rgb(216, 110, 126);">col4</div>
+
+    </div>
+
+
+    <div style="display: grid;
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr 1fr;">
+    
+    <div style="background-color: lightskyblue;">1fr</div>
+    <div style="background-color: lightcoral;"> 1fr</div>
+    <div style="background-color: lightskyblue">1fr</div>
+    
+    </div>
+</body>
+</html>
